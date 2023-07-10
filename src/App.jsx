@@ -10,12 +10,23 @@ import Start from "./Components/Start/Start";
 import Boost from "./Components/Boost/Boost";
 import OurClient from "./Components/OurClient/OurClient";
 import GetStarte from "./Components/GetStarte/GetStarte";
+import Footer from "./Components/Footer/Footer";
+import Simple from "./Components/Simple/Simple";
+import FAQ from "./Components/FAQ/FAQ";
+import International from "./Components/International/International";
 
 function App() {
 	return (
 		<>
 			<div>
-				<div className="container bg-[#f9f9f8]">
+				<div className="fixed bottom-3 right-5 ">
+					<img
+						className="w-14"
+						src="https://assets.website-files.com/647859f16f67fe92cf10d8c2/647c2ebdebf1c6171b0c21d3_icon-whatsapp.svg"
+						alt=""
+					/>
+				</div>
+				<div className=" bg-[#f9f9f8]">
 					<div
 						className=" border-b-2 border-red-700"
 						style={{
@@ -29,10 +40,14 @@ function App() {
 					<Scaling></Scaling>
 					<Unmissable></Unmissable>
 				</div>
-				{/* <Start></Start> */}
+				<Start></Start>
 				<Boost></Boost>
 				<OurClient></OurClient>
+				<Simple></Simple>
+				<FAQ></FAQ>
+				<International></International>
 				<GetStarte></GetStarte>
+				<Footer></Footer>
 			</div>
 		</>
 	);
