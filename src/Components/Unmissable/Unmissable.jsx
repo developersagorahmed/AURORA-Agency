@@ -2,9 +2,9 @@ import React from "react";
 
 const Unmissable = () => {
 	return (
-		<main className="container">
+		<main className="container bg-[#f9f9f9]">
 			<div className="grid items-center gap-8 md:grid-cols-2">
-				<div>
+				<div className="rounded-xl ">
 					<h2 className="text-4xl font-bold md:text-6xl">
 						Unmissable Multi-Channel Presence
 					</h2>
@@ -14,12 +14,12 @@ const Unmissable = () => {
 						to all <br /> of the leading social media and display networks to
 						reach every corner <br /> of the internet.
 					</p>
-					<button className="py-[16px] uppercase w-[210px]  rounded-md hidden md:block  text-white font-bold  bg-[#EB3449] hover:bg-[#de2439]">
+					<button className="py-[16px] uppercase w-[210px]  rounded-md hidden md:block  text-white font-bold  bg-[#EB3449] duration-500 hover:bg-[#de2439]">
 						get started now
 					</button>
 				</div>
 				<div className="grid items-center justify-center gap-14 md:grid-cols-2">
-					<div>
+					<div className="shadow-lg bg-white text-left pl-6 pr-3">
 						<img
 							className="block w-[230px] border-[#D4D4D4] border-b-2"
 							src="https://assets.website-files.com/647859f16f67fe92cf10d8c2/647d89c5035ce3831ed4385c_m-1.png"
@@ -37,9 +37,9 @@ const Unmissable = () => {
 							Learn More
 						</button>
 					</div>
-					<div>
+					<div className="shadow-lg bg-white text-left pl-6">
 						<img
-							className="block w-[230px] border-[#D4D4D4] border-b-2 "
+							className="block w-[200px] border-[#D4D4D4] border-b-2 "
 							src="https://assets.website-files.com/647859f16f67fe92cf10d8c2/647d89c43e58951233c6391f_m-2.png"
 							alt=""
 						/>
@@ -54,7 +54,7 @@ const Unmissable = () => {
 							Learn More
 						</button>
 					</div>
-					<div>
+					<div className="shadow-lg bg-white text-left pl-6 pr-3">
 						<img
 							className="block w-[230px] border-[#D4D4D4] border-b-2"
 							src="https://assets.website-files.com/647859f16f67fe92cf10d8c2/647d89c44e658342be8416e9_m-3.png"
@@ -70,7 +70,7 @@ const Unmissable = () => {
 							Learn More
 						</button>
 					</div>
-					<div>
+					<div className=" shadow-lg bg-white text-left pl-6 pr-4">
 						<img
 							className="block w-[230px] border-[#D4D4D4] border-b-2"
 							src="https://assets.website-files.com/647859f16f67fe92cf10d8c2/647d89c4035ce3831ed437fa_m-4.png"
@@ -85,7 +85,7 @@ const Unmissable = () => {
 							Learn More
 						</button>
 					</div>
-					<div>
+					<div className="shadow-lg bg-white text-left pl-6 pr-3">
 						<img
 							className="block w-[230px] border-[#D4D4D4] border-b-2"
 							src="https://assets.website-files.com/647859f16f67fe92cf10d8c2/647d89ccd622353242b2b177_m-5.png"
@@ -104,7 +104,7 @@ const Unmissable = () => {
 							Learn More
 						</button>
 					</div>
-					<div>
+					<div className="shadow-lg bg-white text-left pl-6 pr-3">
 						<img
 							className="block w-[230px] border-[#D4D4D4] border-b-2"
 							src="https://assets.website-files.com/647859f16f67fe92cf10d8c2/647d89c5252da9f4be1ef911_m-6.png"

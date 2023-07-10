@@ -12,7 +12,7 @@ const Showcase = () => {
 				<p className="text-sm mt-7 lg:text-lg font-semibold">
 					We Are Currently Updating Our Site,{" "}
 					<span className="font-normal">Thanks for Your Patience</span>
-					<span className="text-[#EB3449] font-semibold">!</span>
+					<span className="text-[#EB3449]  font-semibold">!</span>
 				</p>
 			</div>
 		</div>
