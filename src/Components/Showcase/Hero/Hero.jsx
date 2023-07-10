@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
 	return (
-		<div>
+		<div data-aos="fade-up">
 			<div className="md:flex overflow-x-hidden items-center">
 				<div className="mt-6 lg:mt-20">
 					<h1 className="lg:text-5xl text-2xl text-center lg:text-left font-bold md:text-left text-[#000000]">

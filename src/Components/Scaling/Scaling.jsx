@@ -2,7 +2,7 @@ import React from "react";
 
 const Scaling = () => {
 	return (
-		<main className="container">
+		<main data-aos="fade-up" className="container">
 			<div className="my-20">
 				<h2 className="text-3xl font-bold text-center md:text-5xl">
 					Your Key to Unlimited Scaling

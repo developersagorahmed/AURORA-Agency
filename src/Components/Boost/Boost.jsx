@@ -3,7 +3,7 @@ import css from "./Boost.css";
 
 const Boost = () => {
 	return (
-		<div className=" container pt-10 ">
+		<div data-aos="fade-up" className=" container pt-10 ">
 			<h1 className="text-[30px] text-center md:text-4xl  font-bold md:text-left text-[#000000]">
 				Boost Conversions, Lower Costs, Improve <br /> Stability and Beat
 				Competition

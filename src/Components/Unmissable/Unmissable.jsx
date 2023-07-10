@@ -2,7 +2,7 @@ import React from "react";
 
 const Unmissable = () => {
 	return (
-		<main className="container bg-[#f9f9f9]">
+		<main data-aos="fade-up" className="container bg-[#f9f9f9]">
 			<div className="grid items-center gap-8 md:grid-cols-2">
 				<div className="rounded-xl ">
 					<h2 className="text-4xl font-bold md:text-6xl">

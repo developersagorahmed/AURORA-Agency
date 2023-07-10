@@ -2,7 +2,7 @@ import React from "react";
 
 const International = () => {
 	return (
-		<main className="max-w-[1000px] mx-auto px-3">
+		<main data-aos="fade-up" className="max-w-[1000px] mx-auto px-3">
 			<div className="my-20">
 				<h2 className="mb-4 text-5xl font-bold text-center">
 					We’re International

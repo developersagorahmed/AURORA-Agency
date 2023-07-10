@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
 	return (
-		<main className="bg-[#292D36] py-10">
+		<main data-aos="fade-up" className="bg-[#292D36] py-10">
 			<div className="container ">
 				<div className="md:flex items-center justify-between py-10 pb-20">
 					<div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Simple = () => {
 	return (
-		<main className="container">
+		<main data-aos="fade-up" className="container">
 			<div className="grid items-center my-20 md:grid-cols-2">
 				<div>
 					<h1 className="text-3xl font-bold md:text-6xl">

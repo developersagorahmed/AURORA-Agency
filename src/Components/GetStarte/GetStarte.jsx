@@ -2,7 +2,7 @@ import React from "react";
 import css from "./GetStarte.css";
 const GetStarte = () => {
 	return (
-		<div className="">
+		<div data-aos="fade-up" className="">
 			<div
 				style={{
 					backgroundImage: `url("https://assets.website-files.com/647859f16f67fe92cf10d8c2/647859f16f67fe92cf10d8f5_image%2034.png")`,

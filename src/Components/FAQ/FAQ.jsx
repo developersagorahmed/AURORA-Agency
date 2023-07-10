@@ -3,7 +3,7 @@ import { AiOutlineArrowRight } from 'react-icons/ai';
 const FAQ = () => {
 
     return (
-        <main className='max-w-[1000px] mx-auto px-3'>
+        <main data-aos="fade-up" className='max-w-[1000px] mx-auto px-3'>
             <h2 className='mb-5 text-3xl font-bold text-center text-black md:text-6xl'>Frequently Asked Questions</h2>
             <p className='text-xl font-semibold text-center text-[#575757] mb-14'>Check out the most commonly asked questions below. We hope you can find all of the answers that <br /> you need. If not, our team will be happy to help you.</p>
             <div className="mb-8 collapse">

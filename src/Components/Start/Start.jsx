@@ -3,6 +3,7 @@ import React from "react";
 const Start = () => {
 	return (
 		<div
+			data-aos="fade-up"
 			className="mt-10 rounded-xl bg-gradient-to-r mb-20 from-black to-[white] bg-transparent bg-opacity-75   flex justify-between items-center px-10"
 			style={{
 				height: "205px",

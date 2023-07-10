@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -14,12 +14,19 @@ import Footer from "./Components/Footer/Footer";
 import Simple from "./Components/Simple/Simple";
 import FAQ from "./Components/FAQ/FAQ";
 import International from "./Components/International/International";
+import "aos/dist/aos.css";
+import Aos from "aos";
 
 function App() {
+	useEffect(() => {
+		Aos.init({
+			duration: 400,
+		});
+	}, []);
 	return (
 		<>
-			<div>
-				<div className="fixed bottom-3 right-5 ">
+			<div data-aos="fade-up">
+				<div data-aos="fade-up" className="fixed bottom-3 right-5 ">
 					<img
 						className="w-14"
 						src="https://assets.website-files.com/647859f16f67fe92cf10d8c2/647c2ebdebf1c6171b0c21d3_icon-whatsapp.svg"

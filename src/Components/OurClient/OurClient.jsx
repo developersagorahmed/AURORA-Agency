@@ -3,7 +3,7 @@ import Cart from "./Cart/Cart";
 
 const OurClient = () => {
 	return (
-		<div
+		<div data-aos="fade-up"
 			className="h-full w-full pb-24"
 			style={{
 				backgroundImage: `url("https://assets.website-files.com/647859f16f67fe92cf10d8c2/647859f16f67fe92cf10d8e1_bg.png")`,
