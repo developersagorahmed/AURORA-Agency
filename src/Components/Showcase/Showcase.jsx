@@ -3,7 +3,7 @@ import React from "react";
 const Showcase = () => {
 	return (
 		<div data-aos="fade-up">
-			<div className=" lg:flex lg:justify-between items-center">
+			<div className=" lg:flex lg:justify-between px-3 items-center">
 				<img
 					className=" w-[100px]   mt-7 mx-auto md:mx-0"
 					src="https://assets.website-files.com/647859f16f67fe92cf10d8c2/647859f16f67fe92cf10d8cb_logo.png"

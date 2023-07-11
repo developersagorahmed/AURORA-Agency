@@ -5,16 +5,16 @@ const Simple = () => {
 		<main data-aos="fade-up" className="container">
 			<div className="grid items-center my-20 md:grid-cols-2">
 				<div>
-					<h1 className="text-3xl font-bold md:text-6xl">
+					<h1 className="text-3xl text-center lg:text-left font-bold md:text-6xl">
 						Simple <span className="text-[#EB3449]">3-Step</span> <br /> Sign Up
 						Process
 					</h1>
-					<p className="text-[#ADADAD] text-lg font-semibold my-5">
+					<p className="text-[#ADADAD] text-center lg:text-left text-lg font-semibold my-5">
 						We believe in simplifying complex processes. Our 3-Step sign-up{" "}
 						<br /> process is straightforward and hassle-free, enabling you to
 						start <br /> advertising immediately.
 					</p>
-					<button className="py-[16px]  uppercase w-[200px]  rounded-md   text-white font-bold  bg-[#EB3449]  duration-500 hover:bg-[#de2439]">
+					<button className="py-[16px] ml-20 lg:ml-0 mb-6 uppercase w-[200px]  rounded-md   text-white font-bold  bg-[#EB3449]  duration-500 hover:bg-[#de2439]">
 						get started now
 					</button>
 				</div>

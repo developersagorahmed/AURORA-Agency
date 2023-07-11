@@ -30,7 +30,7 @@ const Hero = () => {
 						Free Signup - Cancel Anytime
 					</p>
 				</div>
-				<div>
+				<div className="">
 					<img
 						className="w-full "
 						src="https://assets.website-files.com/647859f16f67fe92cf10d8c2/647d685f865d5dee2defd4de_header-bg.png"
@@ -38,32 +38,44 @@ const Hero = () => {
 					/>
 				</div>
 			</div>
-			<div className="  grid grid-cols-3 gap-5 px-5 my-4 shadow-md md:grid-cols-4 lg:grid-cols-6">
-				<img
-					src="https://assets.website-files.com/647859f16f67fe92cf10d8c2/647d8323f36d2822c5fa56a1_meta.png"
-					alt=""
-				/>
-				<img
-					src="
+			<div className="  grid grid-cols-3 gap-5 px-5 mb-14 my-4  md:grid-cols-4 lg:grid-cols-6">
+				<div className="shadow-2xl">
+					<img
+						src="https://assets.website-files.com/647859f16f67fe92cf10d8c2/647d8323f36d2822c5fa56a1_meta.png"
+						alt=""
+					/>
+				</div>
+				<div className="shadow-2xl">
+					<img
+						src="
 https://assets.website-files.com/647859f16f67fe92cf10d8c2/647d832466a1b3328b13f8b8_tiktok.png"
-					alt=""
-				/>
-				<img
-					src="https://assets.website-files.com/647859f16f67fe92cf10d8c2/647d8323b0b8c32ec567d9eb_google-partner.png"
-					alt=""
-				/>
-				<img
-					src="https://assets.website-files.com/647859f16f67fe92cf10d8c2/647d8323b215be1d5cfa4cfe_snapchat.png"
-					alt=""
-				/>
-				<img
-					src="https://assets.website-files.com/647859f16f67fe92cf10d8c2/647d8324c08c36dc4feeb497_taboola.png"
-					alt=""
-				/>
-				<img
-					src="https://assets.website-files.com/647859f16f67fe92cf10d8c2/647d8324b8b8710d45d73118_outbrain.png"
-					alt=""
-				/>
+						alt=""
+					/>
+				</div>
+				<div className="shadow-2xl">
+					<img
+						src="https://assets.website-files.com/647859f16f67fe92cf10d8c2/647d8323b0b8c32ec567d9eb_google-partner.png"
+						alt=""
+					/>
+				</div>
+				<div className="shadow-2xl">
+					<img
+						src="https://assets.website-files.com/647859f16f67fe92cf10d8c2/647d8323b215be1d5cfa4cfe_snapchat.png"
+						alt=""
+					/>
+				</div>
+				<div className="shadow-2xl">
+					<img
+						src="https://assets.website-files.com/647859f16f67fe92cf10d8c2/647d8324c08c36dc4feeb497_taboola.png"
+						alt=""
+					/>
+				</div>
+				<div className="shadow-2xl">
+					<img
+						src="https://assets.website-files.com/647859f16f67fe92cf10d8c2/647d8324b8b8710d45d73118_outbrain.png"
+						alt=""
+					/>
+				</div>
 			</div>
 		</div>
 	);

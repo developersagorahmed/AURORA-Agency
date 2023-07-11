@@ -17,7 +17,7 @@ const Footer = () => {
 							<br /> an unravalled advertising experience.
 						</p>
 					</div>
-					<div className="text-[#ADADAD] text-lg">
+					<div className="text-[#ADADAD] my-10 lg:my-0 text-lg">
 						<p className="mb-[20px]">Terms & Conditions</p>
 						<p className="mb-[20px]">Privacy Policy</p>
 						<p>Cookies Policy</p>

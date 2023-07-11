@@ -25,15 +25,18 @@ function App() {
 	}, []);
 	return (
 		<>
-			<div data-aos="fade-up">
-				<div data-aos="fade-up" className="fixed bottom-3 right-5 ">
-					<img
-						className="w-14"
-						src="https://assets.website-files.com/647859f16f67fe92cf10d8c2/647c2ebdebf1c6171b0c21d3_icon-whatsapp.svg"
-						alt=""
-					/>
+			<div>
+				<div className="fixed bottom-3 right-5 z-50  ">
+					<a href="https://api.whatsapp.com/send?phone=447418608743&text=Hello%2C%20I%20am%20interested%20in%20your%20services%20at%20Aurora.">
+						{" "}
+						<img
+							className="w-14 hover:scale-110 transform duration-300 "
+							src="https://assets.website-files.com/647859f16f67fe92cf10d8c2/647c2ebdebf1c6171b0c21d3_icon-whatsapp.svg"
+							alt=""
+						/>
+					</a>
 				</div>
-				<div className=" bg-[#f9f9f8]">
+				<div className="pt-2 bg-[#f9f9f8]">
 					<div
 						className=" border-b-2 border-red-700"
 						style={{
